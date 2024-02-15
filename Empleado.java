@@ -1,5 +1,6 @@
+import java.io.Serializable;
 import java.util.Date;
-public class Empleado {
+public class Empleado implements Serializable {
 	String nif;
 	String nombre;
 	String correo;
